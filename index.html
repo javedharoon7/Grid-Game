@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- meta gives the information of the data and charset tells about the character encoding of th html document-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--by using viewport we can make look our paage good on all devices with good width and the intial zoom-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script> <!-- adding jquery library-->
+    <link rel="stylesheet" href="style.css"> <!--this is used to link the css file-->
+    <title>Document</title>
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div class="main" id="overlay"> <!-- div: describes the sections in document which can be styled with css or manipulated with JS-->
+    <table id="table" >
+        <tr> <!--  tr: table rows, td:table data-->
+            <td id="one"></td>
+            <td id="two"></td>
+            <td id="three"></td>
+        </tr>
+        <tr>
+            <td id="four"></td>
+            <td id="five"></td>
+            <td id="six"></td>
+        </tr>
+        <tr>
+            <td id="seven"></td>
+            <td id="eight"></td>
+            <td id="nine"></td>
+        </tr>
+    </table>
+  </div>
+
+
+  <div id="option"> <!-- here we will be starting the game and will be showing the winner-->
+    <p id="demo">START</p>
+  </div>
+
+  <div id="xwin"></div>
+
+  <div id="owin"></div>
+    
+  
+
+    <div id="reset">
+        <button id="button">Reset</button> <!-- using this button to reset the game-->
+    </div>
+
+    <script src="script.js"></script> <!--this is used to link the JS file-->
+</body>
+</html>

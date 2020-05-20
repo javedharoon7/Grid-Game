@@ -1,5 +1,6 @@
 # Milestone-3: Grid game
 
+
 ## Learning Competencies
 At the end of this milestone you will learn
  - Breaking down the problem
